@@ -3,8 +3,6 @@ package ru.kogtev.springcourse.config;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class MySpringMvcDispatherSerlvetIntitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
-
-
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return null;
